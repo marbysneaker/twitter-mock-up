@@ -41,6 +41,9 @@
 .info{
     grid-column: 2;
     text-align: left;
+    
+}
+.info li{
     display: inline-block;
 }
 .info-button {
