@@ -36,14 +36,15 @@
     grid-row: 3;
     display: grid;
     grid-template-columns: 30% 40% 30%;
+    height: 100%;
 
 }
 .info{
     grid-column: 2;
-    text-align: left;
 }
 .info ul{
-    text-align: left;
+    width: 100%;
+    padding-left: 0px;
 }
 .info li{
     display: inline-block;
@@ -53,12 +54,30 @@
 }
 .info li span{
     padding: 5px;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
 }
 .info-button {
     grid-column: 3;
     text-align: center;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 100%;
+    
+}
+.info-button button{
+    align-items: center;
+    color: rgb(20, 113, 145);
+    border-style: solid;
+    border-radius: 25%;
+    border-color: rgb(20, 113, 145);
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .main-body{
@@ -74,6 +93,7 @@
     grid-column: 2;
     border-top: lightgrey;
     border-top-style: solid;
+    border-width: 5px;
     
 }
 .main-right{
@@ -93,5 +113,6 @@
     border-style: solid;
     border-style: solid;
     border-color: white;
+    border-width: 5px;
     
 }
