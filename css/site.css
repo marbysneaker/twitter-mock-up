@@ -41,6 +41,7 @@
 }
 .info{
     grid-column: 2;
+    color: grey;
 }
 .info ul{
     width: 100%;
@@ -70,7 +71,7 @@
     align-items: center;
     color: rgb(20, 113, 145);
     border-style: solid;
-    border-radius: 25%;
+    border-radius: 9999em 9999em 9999em 9999em;
     border-color: rgb(20, 113, 145);
     height: 50px;
     width: 150px;
@@ -87,7 +88,9 @@
 }
 .main-left{
     grid-column: 1;
+    padding: 30px 50px;
 }
+
 .main-center{
     background-color: white;
     grid-column: 2;
