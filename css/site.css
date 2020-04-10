@@ -89,6 +89,15 @@
 .main-left{
     grid-column: 1;
     padding: 30px 50px;
+    justify-items: center;
+    
+}
+.main-left h1{
+    text-decoration: underline;
+    font-size: 20px;
+}
+.main-left span{
+    color: grey;
 }
 
 .main-center{
@@ -97,7 +106,15 @@
     border-top: lightgrey;
     border-top-style: solid;
     border-width: 5px;
+    display: grid;
+    grid-template-rows:  50px auto;
     
+}
+.center-header{
+    grid-row: 1;
+}
+.center-header li{
+    display: inline-block;
 }
 .main-right{
     grid-column: 3;
@@ -118,4 +135,13 @@
     border-color: white;
     border-width: 5px;
     
+}
+.center-header{
+    di;
+    padding: 5px 5px;
+}
+.center-header li {
+    font-weight: bold;
+    padding-right: 20px;
+    color: lightblue;
 }
