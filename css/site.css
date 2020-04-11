@@ -65,7 +65,7 @@
     align-items: center;
     justify-items: center;
     height: 100%;
-    padding: 0;   
+    padding-top: 0;
 }
 .info-button button{
     align-items: center;
@@ -152,7 +152,9 @@
 .tweet{
     display: grid;
     grid-template-columns: 100px 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 25px auto 25px;
+    height: auto;
+    padding-bottom: 20px;
 }
 .tweet-image{
     grid-row: 1 / 4;
@@ -174,12 +176,29 @@
 .tweet-name span{
     color: grey;
 }
+.tweet-name span span{
+    padding-bottom: 20px;
+    box-sizing: content-box;
+}
 .tweet-tweet {
     grid-row: 2;
     grid-column: 2;
     padding: 5px 5px;
+    font-size: 10px;
+    font-weight: lighter;
 }
 .tweet-numbers {
     grid-row: 3;
     grid-column: 2;
+    display: grid;
+    color: grey;
+    
+    
+}
+.tweet-numbers ul li{
+    display: inline-block;
+    padding-right: 20px;
+    height: 100%;
+    align-items: center;
+    padding-left: 10px;
 }
