@@ -145,3 +145,20 @@
     padding-right: 20px;
     color: lightblue;
 }
+.center-tweets{
+    grid-row: 2;
+}
+.tweets{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.tweet-image{
+    grid-row: 1 / 4;
+    grid-column: 1;
+}
+.tweet-image img {
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+}
